@@ -17,10 +17,11 @@ This project focuses on building a data pipeline that transforms raw music data 
 ### VScode Screenshots
 <img width="1502" alt="Screenshot 2025-02-06 at 12 55 26 PM" src="https://github.com/user-attachments/assets/eb1707e9-b26c-4beb-816f-f1b5a86cf4f0" />
 <img width="792" alt="Screenshot 2025-02-06 at 12 56 53 PM" src="https://github.com/user-attachments/assets/30ef20ad-7938-425d-ba9a-8614cd4a30d1" />
-###### Note: Project involved sensitive data. Can't show all steps.
+
+**Note: Project involved sensitive data. Can't show all steps.**
 
 ### Code Map
-.
+```
 ├── dags/
 │   ├── etl_pipeline.py           # Airflow DAG script
 ├── models/
@@ -42,5 +43,7 @@ This project focuses on building a data pipeline that transforms raw music data 
 ├── README.md                     # Project documentation
 ├── requirements.txt              # Python dependencies
 └── .env.example                  # Example environment variables
+```
 
-
+### Metabase Screenshot
+![unnamed](https://github.com/user-attachments/assets/6c1ca166-2d49-4178-9bff-bfff435a51c3)
